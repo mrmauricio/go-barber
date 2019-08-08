@@ -6,6 +6,7 @@
         "history": "^4.9.0",
         "lodash": "^4.17.15",
         "lodash.template": "^4.5.0",
+        "polished": "^3.4.1",
         "prop-types": "^15.7.2",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",

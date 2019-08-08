@@ -42,3 +42,10 @@ AULA 6 - Config Root Import
 
 > foi configurado o Root Import, agora não necessitando mais de ../../
 para chegar no arquivo em questão. apenas o ~ representa o src
+
+-----------------------------------------
+AULA 6 - Added SignIn and SignUp Styles
+-----------------------------------------
+
+> foi configurado a estrutura html de ambas as páginas, além do estilo
+AuthLayout, comum para ambas as páginas
