@@ -1,0 +1,19 @@
+-----------------------------------------
+AULA 1 - Created Page and Route Structure
+-----------------------------------------
+
+> Config ESLint, Prettier, EditorConfig
+> Criadas as paginas da aplicação na pasta Pages
+> Criadas as rotas no 📄️index.js na pasta Routes
+> Criado o arquivo 📄️history.js na pasta Services
+
+- em vez do BrowserRouter, foi utilizado o próprio Router do react-router-
+dom, para utilizar a lib history (que permite navegar mesmo usando redux)
+
+-----------------------------------------
+AULA 2 -Config Reactotron
+-----------------------------------------
+
+
+
+
