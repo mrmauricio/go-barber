@@ -30,5 +30,8 @@ AULA 4 - Config Layouts
 as páginas autenticadas e outro pras públicas, já que seguirão o mesmo
 padrão. então, esses foram adicionados na Route.js
 
+-----------------------------------------
+AULA 5 - Added Global Styles
+-----------------------------------------
 
-
+> froi criado os estilos globais, global.css na pasta styles
