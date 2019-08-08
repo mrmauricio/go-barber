@@ -49,3 +49,10 @@ AULA 6 - Added SignIn and SignUp Styles
 
 > foi configurado a estrutura html de ambas as páginas, além do estilo
 AuthLayout, comum para ambas as páginas
+
+-----------------------------------------
+AULA 6 - Added Unform
+-----------------------------------------
+
+> foi adicionado o Unform nos formulários de sign up / sign in para facili-
+tar o envio dos dados preenchidos

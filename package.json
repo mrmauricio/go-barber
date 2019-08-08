@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@rocketseat/unform": "^1.5.1",
         "history": "^4.9.0",
         "lodash": "^4.17.15",
         "lodash.template": "^4.5.0",
