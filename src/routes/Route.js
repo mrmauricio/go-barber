@@ -1,8 +1,13 @@
 // em vez de utilizar o Route do react-router-dom, criaremos o proprio
 // componente Route
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
+
+// importação dos layouts para serem utilizados em cada página específica
+import AuthLayout from '../pages/_layouts/auth';
+import DefaultLayout from '../pages/_layouts/default';
 
 // destructuring das props passadas pelo Route no index.js:
 // -> component renomeado para Component, pois com o C maiusculo pode ser
@@ -26,9 +31,23 @@ export default function RouteWrapper({
         return <Redirect to="/dashboard" />;
     }
 
+    // define quando aplicar cada layout
+    const Layout = signed ? DefaultLayout : AuthLayout;
+
     // caso esteja logado e queira ir pra uma rota privada retorna o próprio
-    // route do react-router-dom
-    return <Route {...rest} component={Component} />;
+    // route do react-router-dom, com as propriedades que já vieram (...rest)
+    // e essa rota já renderiza o componente passado por parâmetro aplicando
+    // o estilo definido previamente em cada Layout (Default e Auth Layout)
+    return (
+        <Route
+            {...rest}
+            render={props => (
+                <Layout>
+                    <Component {...props} />
+                </Layout>
+            )}
+        />
+    );
 }
 
 RouteWrapper.propTypes = {

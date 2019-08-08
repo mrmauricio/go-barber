@@ -14,6 +14,21 @@ dom, para utilizar a lib history (que permite navegar mesmo usando redux)
 AULA 2 -Config Reactotron
 -----------------------------------------
 
+-----------------------------------------
+AULA 3 - Config Rotas Privadas
+-----------------------------------------
+
+> Foi substituído o componente <Route> importado do react-router-dom por
+um componente criado na mesma pasta, que retorna a <Route> desejada apenas
+se o usuário cumprir as condições
+
+-----------------------------------------
+AULA 4 - Config Layouts
+-----------------------------------------
+
+> foi criado a pasta _layouts na pages que contém layouts padrão, um para
+as páginas autenticadas e outro pras públicas, já que seguirão o mesmo
+padrão. então, esses foram adicionados na Route.js
 
 
 
