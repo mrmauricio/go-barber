@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
 // importação dos layouts para serem utilizados em cada página específica
-import AuthLayout from '../pages/_layouts/auth';
-import DefaultLayout from '../pages/_layouts/default';
+import AuthLayout from '~/pages/_layouts/auth';
+import DefaultLayout from '~/pages/_layouts/default';
 
 // destructuring das props passadas pelo Route no index.js:
 // -> component renomeado para Component, pois com o C maiusculo pode ser
