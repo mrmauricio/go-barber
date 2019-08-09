@@ -44,15 +44,22 @@ AULA 6 - Config Root Import
 para chegar no arquivo em questão. apenas o ~ representa o src
 
 -----------------------------------------
-AULA 6 - Added SignIn and SignUp Styles
+AULA 7 - Added SignIn and SignUp Styles
 -----------------------------------------
 
 > foi configurado a estrutura html de ambas as páginas, além do estilo
 AuthLayout, comum para ambas as páginas
 
 -----------------------------------------
-AULA 6 - Added Unform
+AULA 8 - Added Unform
 -----------------------------------------
 
 > foi adicionado o Unform nos formulários de sign up / sign in para facili-
 tar o envio dos dados preenchidos
+
+-----------------------------------------
+AULA 9 - Added Validations
+-----------------------------------------
+
+> foi adicionado o Yup para fazer a validação dos formulários nas páginas
+sign in / sign up
