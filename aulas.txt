@@ -63,3 +63,11 @@ AULA 9 - Added Validations
 
 > foi adicionado o Yup para fazer a validação dos formulários nas páginas
 sign in / sign up
+
+-----------------------------------------
+AULA 9 - Config Redux
+-----------------------------------------
+
+> foram adicionados os pacotes: redux redux-saga react-redux reactotron-redux
+reactotron-redux-saga immer
+> foi criada a pasta store e feita todas as configurações iniciais
