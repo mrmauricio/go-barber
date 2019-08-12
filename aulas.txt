@@ -93,3 +93,10 @@ AULA 13 - Persist Auth
 > foi feita a persistência de dados com redux-persist, fazendo com que os
 dados da auth e user (token e informações de usuário) fiquem guardadas no
 localStorage para que os dados não se percam ao recarregar a página
+
+-----------------------------------------
+AULA 14 - Loading Auth
+-----------------------------------------
+
+> foi feito o loading da Auth, ouvindo as actions no reducer de auth. tam-
+bém foi iniciada a configuração da sign_failure
