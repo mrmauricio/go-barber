@@ -73,9 +73,16 @@ reactotron-redux-saga immer
 > foi criada a pasta store e feita todas as configurações iniciais
 
 -----------------------------------------
-AULA 11 - Config Redux
+AULA 11 - Created Auth
 -----------------------------------------
 
 > foram criadas as actions da Auth e o saga do SignIn, além de incluir essa
 informação nas routes para finalizar o login do usuário
+
+-----------------------------------------
+AULA 11 - Created User
+-----------------------------------------
+
+> foi criado o reducer e sagas de User para adicionar os dados do usuário ao
+redux quando o SignIn for feito
 
