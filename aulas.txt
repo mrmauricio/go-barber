@@ -100,3 +100,9 @@ AULA 14 - Loading Auth
 
 > foi feito o loading da Auth, ouvindo as actions no reducer de auth. tam-
 bém foi iniciada a configuração da sign_failure
+
+-----------------------------------------
+AULA 14 - Added Toasts
+-----------------------------------------
+
+> foi adicionado as toasts com mensagens de erro

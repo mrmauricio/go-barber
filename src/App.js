@@ -1,4 +1,5 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
 // o PersistGate recebe como parâmetro o persistor, e executa assim que o
 // store for carregado para buscar as informações no localStorage
 import { PersistGate } from 'redux-persist/integration/react';
@@ -22,6 +23,7 @@ function App() {
                 <Router history={history}>
                     <Routes />
                     <GlobalStyle />
+                    <ToastContainer autoclose={3000} />
                 </Router>
             </PersistGate>
         </Provider>
