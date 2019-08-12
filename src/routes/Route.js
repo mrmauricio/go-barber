@@ -9,7 +9,7 @@ import { Route, Redirect } from 'react-router-dom';
 import AuthLayout from '~/pages/_layouts/auth';
 import DefaultLayout from '~/pages/_layouts/default';
 
-import store from '~/store';
+import { store } from '~/store';
 
 // destructuring das props passadas pelo Route no index.js:
 // -> component renomeado para Component, pois com o C maiusculo pode ser
