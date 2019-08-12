@@ -65,9 +65,17 @@ AULA 9 - Added Validations
 sign in / sign up
 
 -----------------------------------------
-AULA 9 - Config Redux
+AULA 10 - Config Redux
 -----------------------------------------
 
 > foram adicionados os pacotes: redux redux-saga react-redux reactotron-redux
 reactotron-redux-saga immer
 > foi criada a pasta store e feita todas as configurações iniciais
+
+-----------------------------------------
+AULA 11 - Config Redux
+-----------------------------------------
+
+> foram criadas as actions da Auth e o saga do SignIn, além de incluir essa
+informação nas routes para finalizar o login do usuário
+

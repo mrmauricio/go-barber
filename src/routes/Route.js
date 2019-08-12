@@ -9,6 +9,8 @@ import { Route, Redirect } from 'react-router-dom';
 import AuthLayout from '~/pages/_layouts/auth';
 import DefaultLayout from '~/pages/_layouts/default';
 
+import store from '~/store';
+
 // destructuring das props passadas pelo Route no index.js:
 // -> component renomeado para Component, pois com o C maiusculo pode ser
 // rendereizado como um componente e não como tag jsx
@@ -19,7 +21,8 @@ export default function RouteWrapper({
     isPrivate,
     ...rest
 }) {
-    const signed = false;
+    // pega o auth.signed do redux
+    const { signed } = store.getState().auth;
 
     // usuário nao estiver logado e rota for privada, redireciona home
     if (!signed && isPrivate) {
