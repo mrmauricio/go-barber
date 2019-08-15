@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Header from '~/components/Header';
+
 import { Wrapper } from './styles';
 
 // a prop children carrega todos os componentes que estiverem dentro do
 // componente em questão, ex: <AuthLayout> <Teste> </AuthLayout>
 export default function DefaultLayout({ children }) {
-    return <Wrapper>{children}</Wrapper>;
+    return (
+        <Wrapper>
+            <Header />
+            {children}
+        </Wrapper>
+    );
 }
 
 // se passa o componente assim: <AuthLayout/>, ele é um element. no caso

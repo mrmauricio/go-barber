@@ -115,7 +115,7 @@ AULA 16 - Added Sign Up
 tindo agora que o usuário possa se cadastrar na pagina /register (sign up)
 
 -----------------------------------------
-AULA 16 - Added Auth to Request Headers
+AULA 17 - Added Auth to Request Headers
 -----------------------------------------
 
 > foi adicionado o token JWT no header de todas as requests. este é adicionado
@@ -125,3 +125,9 @@ o usuário fez login em outra ocasião e está retornando ao app. com esses dois
 casos, todas as requests que serão feitas na app foram cobertas, assim incluin-
 do o token no header
 
+-----------------------------------------
+AULA 18 - Added Header
+-----------------------------------------
+
+> foi criado o header e feito sua estilização. este foi incluído no layout
+default, então estará em todas as rotas com autenticação
