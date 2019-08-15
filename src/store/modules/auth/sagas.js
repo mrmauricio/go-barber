@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import history from '~/services/history';
 import api from '~/services/api';
 
-import { signInSuccess, signFailure } from './actions';
+import { signInSuccess, signUpSuccess, signFailure } from './actions';
 
 // funções são exportadas para facilitar os testes
 export function* signIn({ payload }) {
@@ -38,6 +38,30 @@ export function* signIn({ payload }) {
     }
 }
 
+export function* signUp({ payload }) {
+    try {
+        const { name, email, password } = payload;
+
+        yield call(api.post, 'users', {
+            name,
+            email,
+            password,
+            provider: true,
+        });
+
+        yield put(signUpSuccess());
+
+        history.push('/');
+    } catch (err) {
+        toast.error('Falha no cadastro, verifique seus dados!');
+
+        yield put(signFailure());
+    }
+}
+
 // sempre que houver o dispatch da action em questão, o takeLatest pega a
 // ultima chamada (caso clique 2x, só a 2ª vai) e executa o saga signIn
-export default all([takeLatest('@auth/SIGN_IN_REQUEST', signIn)]);
+export default all([
+    takeLatest('@auth/SIGN_IN_REQUEST', signIn),
+    takeLatest('@auth/SIGN_UP_REQUEST', signUp),
+]);

@@ -102,7 +102,15 @@ AULA 14 - Loading Auth
 bém foi iniciada a configuração da sign_failure
 
 -----------------------------------------
-AULA 14 - Added Toasts
+AULA 15 - Added Toasts
 -----------------------------------------
 
 > foi adicionado as toasts com mensagens de erro
+
+-----------------------------------------
+AULA 16 - Added Sign Up
+-----------------------------------------
+
+> foram criadas as actions e o saga relacionado ao cadastro de usuário, permi-
+tindo agora que o usuário possa se cadastrar na pagina /register (sign up)
+

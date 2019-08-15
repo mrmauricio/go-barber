@@ -27,13 +27,13 @@ export const Content = styled.div`
             border-radius: 4px;
             height: 44px;
             padding: 0 15px;
-            color #fff;
+            color: #fff;
             margin: 0 0 10px;
 
             /* não é necessário alterar para cada browser, o styled-comp
             já faz isso automaticamente */
             &::placeholder {
-                color: rgba(255,255,255,0.7);
+                color: rgba(255, 255, 255, 0.7);
             }
         }
 
@@ -57,7 +57,7 @@ export const Content = styled.div`
             transition: background 0.2s;
 
             &:hover {
-                background: ${darken(0.03, '#3b9eff')}
+                background: ${darken(0.03, '#3b9eff')};
             }
         }
 
