@@ -114,3 +114,14 @@ AULA 16 - Added Sign Up
 > foram criadas as actions e o saga relacionado ao cadastro de usuário, permi-
 tindo agora que o usuário possa se cadastrar na pagina /register (sign up)
 
+-----------------------------------------
+AULA 16 - Added Auth to Request Headers
+-----------------------------------------
+
+> foi adicionado o token JWT no header de todas as requests. este é adicionado
+quando o usuário faz login no saga de sign in. também é adicionado no saga que
+acompanha o REHYDRATE, que adiciona os dados do localStorage ao redux, quando
+o usuário fez login em outra ocasião e está retornando ao app. com esses dois
+casos, todas as requests que serão feitas na app foram cobertas, assim incluin-
+do o token no header
+
