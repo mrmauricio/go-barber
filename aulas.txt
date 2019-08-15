@@ -131,3 +131,14 @@ AULA 18 - Added Header
 
 > foi criado o header e feito sua estilização. este foi incluído no layout
 default, então estará em todas as rotas com autenticação
+
+-----------------------------------------
+AULA 19 - Added Notification Styles
+-----------------------------------------
+
+> foi criada a estilização do componente de notificações; neste foram feitas
+coisas como:
+    > utilização da react-perfect-scrollbar
+    > inserção de css de acordo com certas propriedades (para marcar o aviso
+    de lido/não lido)
+    > posicionamento (absolute) da lista de notificações (left: calc(50%-120))
