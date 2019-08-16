@@ -142,3 +142,10 @@ coisas como:
     > inserção de css de acordo com certas propriedades (para marcar o aviso
     de lido/não lido)
     > posicionamento (absolute) da lista de notificações (left: calc(50%-120))
+
+-----------------------------------------
+AULA 19 - Added Notification
+-----------------------------------------
+
+> foi feita a request para a API e configurado os valores em questão para
+serem apresentados na lista de notificações
