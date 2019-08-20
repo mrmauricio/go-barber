@@ -144,8 +144,16 @@ coisas como:
     > posicionamento (absolute) da lista de notificações (left: calc(50%-120))
 
 -----------------------------------------
-AULA 19 - Added Notification
+AULA 20 - Added Notification
 -----------------------------------------
 
 > foi feita a request para a API e configurado os valores em questão para
 serem apresentados na lista de notificações
+
+-----------------------------------------
+AULA 21 - Profile Styles
+-----------------------------------------
+
+> foi feita a estilização do perfil do usuário, reutilizando os estilos do
+form de login. também foi adicionado o unform e feita a busca no redux dos
+dados anteriores para popular o perfil
