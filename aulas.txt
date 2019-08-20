@@ -166,3 +166,11 @@ AULA 22 - Added Profile Update
 as actions, saga e reducer para que, ao dar o submit, faça o PUT na api e
 os dados do usuário sejam atualizados no back-end, para então alterá-los
 também no front
+
+-----------------------------------------
+AULA 23 - Added Profile Avatar
+-----------------------------------------
+
+> foi feita a funcionalidade de enviar imagem, então é mostrado um preview,
+para então enviar a imagem juntamente com a request de atualização, para
+assim definir a nova imagem de perfil. foi feito o uso do unform

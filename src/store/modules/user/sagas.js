@@ -7,14 +7,14 @@ import { updateProfileFailure, updateProfileSuccess } from './actions';
 
 export function* updateProfile({ payload }) {
     try {
-        const { name, email, ...rest } = payload.data;
+        const { name, email, avatar_id, ...rest } = payload.data;
 
         // object assign serve para unir dois objetos. no caso, verificamos se
         // o usuário preencheu o oldPassword, e caso sim, une o nome e email com
         // as informações de senha (old, pass, new). caso não, pois talvez ele
         // não queira alterar a senha, une com um objeto vazio, continuando igual
         const profile = Object.assign(
-            { name, email },
+            { name, email, avatar_id },
             rest.oldPassword ? rest : {}
         );
 
