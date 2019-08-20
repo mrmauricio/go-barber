@@ -180,3 +180,11 @@ AULA 24 - Added User data to Header
 -----------------------------------------
 
 > foi buscado os dados do usuário do redux para adicionar ao header
+
+-----------------------------------------
+AULA 25 - Added Logout
+-----------------------------------------
+
+> foi criada a action de auth Logout, e esta é ouvida em ambos os reducers
+(auth e user) para resetar as informações para null. então, o saga de auth
+redireciona para a página inicial

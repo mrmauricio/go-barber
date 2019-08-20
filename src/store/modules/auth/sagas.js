@@ -88,10 +88,15 @@ export function setToken({ payload }) {
     }
 }
 
+export function signOut() {
+    history.push('/');
+}
+
 // sempre que houver o dispatch da action em questão, o takeLatest pega a
 // ultima chamada (caso clique 2x, só a 2ª vai) e executa o saga signIn
 export default all([
     takeLatest('persist/REHYDRATE', setToken),
     takeLatest('@auth/SIGN_IN_REQUEST', signIn),
     takeLatest('@auth/SIGN_UP_REQUEST', signUp),
+    takeLatest('@auth/SIGN_OUT', signOut),
 ]);
