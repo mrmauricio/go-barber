@@ -174,3 +174,9 @@ AULA 23 - Added Profile Avatar
 > foi feita a funcionalidade de enviar imagem, então é mostrado um preview,
 para então enviar a imagem juntamente com a request de atualização, para
 assim definir a nova imagem de perfil. foi feito o uso do unform
+
+-----------------------------------------
+AULA 24 - Added User data to Header
+-----------------------------------------
+
+> foi buscado os dados do usuário do redux para adicionar ao header
