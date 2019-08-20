@@ -39,7 +39,7 @@ export const Container = styled.div`
             border: 0;
             height: 1px;
             background: rgba(255, 255, 255, 0.2);
-            margin-bottom: 10px 0 20px;
+            margin: 10px 0px 20px;
         }
 
         button {

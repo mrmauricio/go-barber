@@ -151,9 +151,18 @@ AULA 20 - Added Notification
 serem apresentados na lista de notificações
 
 -----------------------------------------
-AULA 21 - Profile Styles
+AULA 21 - Added Profile Styles
 -----------------------------------------
 
 > foi feita a estilização do perfil do usuário, reutilizando os estilos do
 form de login. também foi adicionado o unform e feita a busca no redux dos
 dados anteriores para popular o perfil
+
+-----------------------------------------
+AULA 22 - Added Profile Update
+-----------------------------------------
+
+> foi feita a functionalidade de alterar os dados do profile, adicionando
+as actions, saga e reducer para que, ao dar o submit, faça o PUT na api e
+os dados do usuário sejam atualizados no back-end, para então alterá-los
+também no front
