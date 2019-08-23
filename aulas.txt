@@ -188,3 +188,22 @@ AULA 25 - Added Logout
 > foi criada a action de auth Logout, e esta é ouvida em ambos os reducers
 (auth e user) para resetar as informações para null. então, o saga de auth
 redireciona para a página inicial
+
+-----------------------------------------
+AULA 26 - Added Dashboard Styles
+-----------------------------------------
+
+> foi feita a estilização da pagina inicial, Dashboard
+
+-----------------------------------------
+AULA 27 - Added Dashboard Header Navigation
+-----------------------------------------
+
+> foi feita a funcionalidade de navegação do header da dashboard
+
+-----------------------------------------
+AULA 28 - Listing Schedule
+-----------------------------------------
+
+> foi feita a listagem de agendamentos, fazendo a consulta na API e mostrando
+as informações sobre cada dia e horário em questão
